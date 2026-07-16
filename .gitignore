@@ -1,0 +1,19 @@
+# Python
+cvg-web/venv/
+cvg-web/__pycache__/
+cvg-web/**/*.pyc
+cvg-web/db.sqlite3
+cvg-web/.env
+
+# React / Node
+cvgenie-frontend/frontend/node_modules/
+cvgenie-frontend/frontend/dist/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
