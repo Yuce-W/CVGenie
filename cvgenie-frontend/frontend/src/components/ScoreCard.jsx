@@ -1,7 +1,4 @@
-import {
-    CircularProgressbar,
-    buildStyles,
-} from "react-circular-progressbar";
+import {CircularProgressbar, buildStyles,} from "react-circular-progressbar";
 
 import "react-circular-progressbar/dist/styles.css";
 
@@ -22,10 +19,9 @@ function ScoreCard({ score }) {
     }
 
     return (
-        <div className="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center">
-
-            <h2 className="text-2xl font-bold mb-8">
-                🎯 ATS Match Score
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6 shadow-xl hover:border-blue-500 transition-all duration-300 flex flex-col items-center">
+            <h2 className="text-2xl font-bold mb-8 text-white">
+                ATS Match Score
             </h2>
 
             <div className="w-44 h-44">
