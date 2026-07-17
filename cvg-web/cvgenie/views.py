@@ -15,5 +15,6 @@ def upload_resume(request):
         resume = serializer.save()
         text = extract_text(resume.resume.path)
         analysis = analyze_resume(text,resume.job_description)
+        
         return Response(analysis)
     return Response(serializer.errors, status=400)
