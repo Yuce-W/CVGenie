@@ -57,7 +57,7 @@ function UploadBox() {
 
     return (
 
-        <div className="w-full max-w-xl rounded-3xl border border-zinc-800 bg-zinc-900 shadow-2xl p-8">
+        <div className="w-[1500px] max-w-[95vw] rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl p-1">
 
             <div className="text-center mb-8">
 
@@ -86,7 +86,8 @@ function UploadBox() {
                 hover:border-blue-500
                 hover:bg-zinc-800
                 transition
-                mb-6"
+                mb-10
+                max-w-3xl mx-auto"
             >
 
                 <Upload
@@ -115,7 +116,7 @@ function UploadBox() {
 
             </label>
 
-            <div className="relative mb-5">
+            <div className="relative mb-5 max-w-3xl mx-auto">
 
                 <Briefcase
                     className="absolute left-3 top-3.5 text-zinc-500"
@@ -143,7 +144,7 @@ function UploadBox() {
 
             </div>
 
-            <div className="relative mb-6">
+            <div className="relative mb-6 max-w-3xl mx-auto">
 
                 <FileText
                     className="absolute left-3 top-3.5 text-zinc-500"
@@ -192,7 +193,8 @@ function UploadBox() {
                 transition-all
                 hover:scale-[1.02]
                 disabled:opacity-50
-                disabled:cursor-not-allowed"
+                disabled:cursor-not-allowed
+                max-w-3xl mx-auto"
             >
 
                 Analyze Resume
